@@ -1,28 +1,32 @@
 package com.example.rubikscube
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import com.example.rubikscube.databinding.ActivityMainBinding
+import android.view.View
+import android.widget.Button
+import android.widget.LinearLayout
+import android.widget.TextView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var layoutHowToPlay: LinearLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_main)
 
-        binding.btnPlay.setOnClickListener {
+        val btnPlay = findViewById(R.id.btnPlay) as Button
+        val btnHowToPlay = findViewById(R.id.btnHowToPlay) as Button
+        layoutHowToPlay = findViewById(R.id.layoutHowToPlay) as LinearLayout
+
+        btnPlay.setOnClickListener {
             startActivity(Intent(this, GameActivity::class.java))
         }
 
-        binding.btnHowToPlay.setOnClickListener {
-            binding.layoutHowToPlay.visibility =
-                if (binding.layoutHowToPlay.visibility == android.view.View.VISIBLE)
-                    android.view.View.GONE
-                else android.view.View.VISIBLE
+        btnHowToPlay.setOnClickListener {
+            layoutHowToPlay.visibility =
+                if (layoutHowToPlay.visibility == View.VISIBLE) View.GONE else View.VISIBLE
         }
     }
 }

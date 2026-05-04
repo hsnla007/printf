@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="3×3 Puzzle"
         android:textSize="16sp"
-        android:textColor="@color/accent"
+        android:textColor="#FFE94560"
         android:layout_marginBottom="48dp" />
 
     <Button
@@ -30,7 +30,6 @@
         android:layout_height="56dp"
         android:text="Play"
         android:textSize="18sp"
-        android:backgroundTint="@color/accent"
         android:layout_marginBottom="16dp" />
 
     <Button
@@ -39,7 +38,6 @@
         android:layout_height="56dp"
         android:text="How to Play"
         android:textSize="16sp"
-        android:backgroundTint="@color/surface"
         android:layout_marginBottom="16dp" />
 
     <LinearLayout
