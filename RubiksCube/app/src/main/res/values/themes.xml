@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RubiksCube" parent="android:Theme.Material">
+        <item name="android:colorPrimary">#FF16213E</item>
+        <item name="android:colorPrimaryDark">#FF1A1A2E</item>
+        <item name="android:colorAccent">#FFE94560</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">#FF1A1A2E</item>
+    </style>
+</resources>

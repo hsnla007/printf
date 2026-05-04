@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple 3x3 Rubik's cube icon -->
+    <!-- Row 1 -->
+    <path android:fillColor="#FFDD0000" android:pathData="M20,20 h20 v20 h-20 z"/>
+    <path android:fillColor="#FF00AA00" android:pathData="M44,20 h20 v20 h-20 z"/>
+    <path android:fillColor="#FF0000FF" android:pathData="M68,20 h20 v20 h-20 z"/>
+    <!-- Row 2 -->
+    <path android:fillColor="#FFFF6600" android:pathData="M20,44 h20 v20 h-20 z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M44,44 h20 v20 h-20 z"/>
+    <path android:fillColor="#FFFF6600" android:pathData="M68,44 h20 v20 h-20 z"/>
+    <!-- Row 3 -->
+    <path android:fillColor="#FFFFFF00" android:pathData="M20,68 h20 v20 h-20 z"/>
+    <path android:fillColor="#FFDD0000" android:pathData="M44,68 h20 v20 h-20 z"/>
+    <path android:fillColor="#FF00AA00" android:pathData="M68,68 h20 v20 h-20 z"/>
+</vector>
