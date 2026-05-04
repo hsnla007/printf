@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rubik\'s Cube</string>
+    <string name="how_to_play">
+• The cube is shown as an unfolded net with 6 faces.\n
+• Swipe on a face to rotate it, or use the move buttons (U, D, F, B, L, R).\n
+• \'  means counterclockwise (e.g. U\' = U counterclockwise).\n
+• Goal: make each face one solid color.\n
+• U=Up  D=Down  F=Front  B=Back  L=Left  R=Right\n
+• Tap Shuffle to start a new scramble.
+    </string>
+</resources>
